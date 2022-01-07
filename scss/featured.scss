@@ -1,0 +1,33 @@
+@import "variables.scss";
+
+/* Featured page styles */
+
+.block-10{ 
+	img{
+		width: 300px;
+		height: 300px;
+	}
+	.podcast-parameter{
+		border: 1px solid $grey-dark-1;
+		svg{
+			fill: $grey-dark-4;
+		}
+	}	
+	.line{
+		background: $grey-dark-1;
+		height: 1.5px;
+		border-radius: 2px;
+	}
+	.border-block{
+		border: 1.5px solid $grey-dark-1;
+		border-radius: 10px;
+	}
+	@media(max-width: 575.98px){
+		img{
+			height: auto;
+			width: auto;
+			max-width: 100%;
+			max-height: 100%;
+		}
+	}	
+}

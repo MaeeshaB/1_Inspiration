@@ -1,0 +1,13 @@
+@import "variables.scss";
+
+/* 404 page styles */
+
+.block-12{
+	.block-12-container{
+		min-height: calc(100vh - 80px);
+	}
+	img{
+		max-width: 438px;
+		margin: 0 auto;
+	}
+}

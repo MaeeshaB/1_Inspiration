@@ -1,0 +1,82 @@
+@import "variables.scss";
+
+/* Main page styles */
+
+.block-1{
+	@media(max-width: 991.98px){
+		.slider-1{
+			.slick-slide{
+				.slide-container{
+					> div{
+						padding: 0 1.5%;
+					}
+				}
+			}
+		}
+		
+	}
+}
+.block-2{
+	.slider-2{
+		.img-block{
+			button{
+				position: absolute;
+				top:15px;
+				right: 15px;
+			}
+			a{
+				position: absolute;
+				bottom:15px;
+				right: 15px;
+			}
+		}
+		.podcast-parameter{
+			border: 1px solid $grey-dark-1;
+			svg{
+				fill: $grey-dark-4;
+			}
+		}
+		.swiper-scrollbar{
+			opacity: 1 !important;
+			position: relative !important;
+			left: auto !important;
+			bottom: auto !important;
+			width: 100%;
+			border-radius: 5px !important;
+			background: $grey-dark-1 !important;
+			.swiper-scrollbar-drag{
+				background: $grey-dark-1 !important;
+			}
+		}
+	}
+}
+
+.block-3{
+	img{
+		width: 300px;
+		height: 300px;
+	}
+	.podcast-parameter{
+		border: 1px solid $grey-dark-1;
+		svg{
+			fill: $grey-dark-4;
+		}
+	}	
+	.line{
+		background: $grey-dark-1;
+		height: 1.5px;
+		border-radius: 2px;
+	}
+	.border-block{
+		border: 1.5px solid $grey-dark-1;
+		border-radius: 10px;
+	}
+	@media(max-width: 575.98px){
+		img{
+			height: auto;
+			width: auto;
+			max-width: 100%;
+			max-height: 100%;
+		}
+	}	
+}

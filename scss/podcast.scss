@@ -1,0 +1,40 @@
+@import "variables.scss";
+
+/* Podcast page styles */
+
+.block-7{
+	.podcast-parameter{
+		border: 1px solid $grey-dark-1;
+		svg{
+			fill: $grey-dark-4;
+		}
+	}	
+	.pagination-block{
+		border-top: 1.5px solid $grey-dark-1; 
+		border-bottom: 1.5px solid $grey-dark-1;
+		.inner-block-1{
+			border-right: 1.5px solid $grey-dark-1;
+		}
+		.inner-block-1, .inner-block-2{
+			a{
+				&:hover{
+					color:$accent-blue-3 !important;
+					.bordered{
+						border: 1.5px solid $accent-blue-3;
+						svg{
+							fill: $accent-blue-3;
+						}				
+					}
+				}			
+				
+			}
+		}
+	}
+	@media(max-width: 767.98px){
+		.pagination-block{
+			.inner-block-1{
+				border-right: 0px;
+			}
+		}
+	}
+}
