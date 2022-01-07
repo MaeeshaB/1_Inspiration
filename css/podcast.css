@@ -1,0 +1,31 @@
+/* Variables */
+/* Podcast page styles */
+.block-7 .podcast-parameter {
+  border: 1px solid rgba(0, 0, 0, 0.05); }
+  .block-7 .podcast-parameter svg {
+    fill: rgba(0, 0, 0, 0.5); }
+
+.block-7 .pagination-block {
+  border-top: 1.5px solid rgba(0, 0, 0, 0.05);
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.05); }
+  .block-7 .pagination-block .inner-block-1 {
+    border-right: 1.5px solid rgba(0, 0, 0, 0.05); }
+  .block-7 .pagination-block .inner-block-1 a:hover, .block-7 .pagination-block .inner-block-2 a:hover {
+    color: rgba(55, 137, 252, 0.8) !important; }
+    .block-7 .pagination-block .inner-block-1 a:hover .bordered, .block-7 .pagination-block .inner-block-2 a:hover .bordered {
+      border: 1.5px solid rgba(55, 137, 252, 0.8); }
+      .block-7 .pagination-block .inner-block-1 a:hover .bordered svg, .block-7 .pagination-block .inner-block-2 a:hover .bordered svg {
+        fill: rgba(55, 137, 252, 0.8); }
+
+.centre-album-cover{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.next-arrow-rightAlign{
+  justify-content: flex-end;
+}
+
+@media (max-width: 767.98px) {
+  .block-7 .pagination-block .inner-block-1 {
+    border-right: 0px; } }

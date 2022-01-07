@@ -1,0 +1,26 @@
+/* Variables */
+/* Featured page styles */
+.block-10 img {
+  width: 300px;
+  height: 300px; }
+
+.block-10 .podcast-parameter {
+  border: 1px solid rgba(0, 0, 0, 0.05); }
+  .block-10 .podcast-parameter svg {
+    fill: rgba(0, 0, 0, 0.5); }
+
+.block-10 .line {
+  background: rgba(0, 0, 0, 0.05);
+  height: 1.5px;
+  border-radius: 2px; }
+
+.block-10 .border-block {
+  border: 1.5px solid rgba(0, 0, 0, 0.05);
+  border-radius: 10px; }
+
+@media (max-width: 575.98px) {
+  .block-10 img {
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%; } }
